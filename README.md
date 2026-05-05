@@ -32,7 +32,7 @@ It allows users to create, edit, and manage notes easily, as well as handle PDF 
 ![Loading](images/loading_page.jpg)
 ![Dashboard](images/dashboard_page.jpg)
 ![Login](images/login_page.jpg)
-![Note Live](images/note live_page.jpg)
+![Note Live](images/note_live_page.jpg)
 ![PDF](images/global_pdf_page.jpg)
 
 ---

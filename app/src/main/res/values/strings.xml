@@ -1,0 +1,256 @@
+<resources>
+    <string name="app_name">NoteApp</string>
+    <string name="app_note">Note BSK</string>
+    <string name="welcome_text">WELCOME TO NOTE BSK</string>
+    <string name="loading_text">LOADING....</string>
+    <string name="get_started">Get Started</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="slogan_text">%1$s</string>
+    <string name="textview1">TextView</string>
+    <string name="textview2">TextView</string>
+    <string name="retailer_tag_line">NOTE BSK allows you to freely create notes to record your life,\n work, or studies. We wish you a pleasant experience!</string>
+    <string name="login">login</string>
+    <string name="sign_up">sign up</string>
+    <string name="welcome_to_bsk_note">Welcome to note bsk</string>
+    <string name="login_title">Login</string>
+    <string name="log">LOGIN</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="password">Enter Password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="login_back_button_description">Back Button</string>
+    <string name="rememberme">rememberme</string>
+    <string name="create_account">Create\nAccount</string>
+    <string name="back">back</string>
+    <string name="forget_password">forget password</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="tonext">Next</string>
+    <string name="_1_3">⅓</string>
+    <string name="_2_3">2/3</string>
+    <string name="_3_3">3/3</string>
+    <string name="enter_number_phone">Enter Number Phone</string>
+    <string name="choose_gender">Choose Gender</string>
+    <string name="other">Other</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="select_your_age">Select Your Age</string>
+    <string name="full_name">Enter Full Name</string>
+    <string name="clear_text">cleartext</string>
+
+    <string name="otp_code_text">CO\nDE</string>
+    <string name="close">close</string>
+    <string name="verification">Verifying Your Number</string>
+    <string name="enter_your_pin">Enter your PIN</string>
+    <string name="otp_description_text">Enter one time password sent on +60177157755</string>
+    <string name="verify_code">Verify Code</string>
+    <string name="note_bsk">Note BSK</string>
+    <string name="phrases">Record your notes the easy way</string>
+    <string name="note_live">Note Live</string>
+    <string name="title">Title</string>
+    <string name="note">note</string>
+    <string name="recently">recently</string>
+    <string name="upload">upload</string>
+    <string name="editdoc">editdoc</string>
+    <string name="most_recent">Most Recent</string>
+    <string name="uploadtxt">Upload</string>
+    <string name="docedit">QuickDoc</string>
+    <string name="nav_notelive">Note Live</string>
+    <string name="nav_most_recent">Most Recent</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_upload">Upload</string>
+    <string name="nav_docedit">QuickDoc</string>
+    <string name="nav_logout">Logout</string>
+    <string name="nav_setting">Setting</string>
+    <string name="nav_feedback">Feedback</string>
+    <string name="nav_about_us">About Us</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="close_txt">Close</string>
+    <string name="images_pdfupload">images_pdfupload</string>
+    <string name="search_document">Search Document....</string>
+    <string name="searchbtn">searchBtn</string>
+    <string name="clearbtn">ClearBtn</string>
+    <string name="btnadd">btnAdd</string>
+    <string name="painting">painting</string>
+    <string name="edit_document">Quick Document</string>
+    <string name="save">Save</string>
+    <string name="back_btn">back_btn</string>
+    <string name="show_toolbar_button">show_toolbar_button</string>
+    <string name="tool_pencil">tool_pencil</string>
+    <string name="tools_pen">tools_pen</string>
+    <string name="tool_brush">tool_brush</string>
+    <string name="tool_paint">tool_paint</string>
+    <string name="erasers">erasers</string>
+    <string name="tool_palette">tool_palette</string>
+    <string name="undo">undo</string>
+    <string name="clear">clear</string>
+    <string name="savebutton">saveButton</string>
+    <string name="redo">redo</string>
+    <string name="view">view</string>
+    <string name="tools_highlighter">tools_highlighter</string>
+    <string name="_0dp">0dp</string>
+    <string name="search_notelive">Search_NoteLive</string>
+    <string name="note_live_system">Note Live System</string>
+    <string name="search_note">Search Note....</string>
+    <string name="search">search</string>
+    <string name="title_forget_password">Forget Password</string>
+    <string name="forget_password_detail">Provide your account email for which you want to reset your password!</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="images_forget_password">images_forget_password</string>
+    <string name="make_selection">Make\nSelection</string>
+    <string name="provide_your_account_s_email_for_which_you_want_to_reset_your_password">Provide your account\'s email for which you want to reset your password</string>
+    <string name="via_sms">via sms:</string>
+    <string name="support_gmail_com">support@gmail.com</string>
+    <string name="sms_phone">sms_phone</string>
+    <string name="sms_email">sms_email</string>
+    <string name="_60177157755">+60177157755</string>
+    <string name="via_mail">via mail</string>
+    <string name="mailbox">mailbox</string>
+    <string name="backarrow">backarrow</string>
+    <string name="new_ncredentials">Reset\nPassword</string>
+    <string name="new_credentials_details">Your identify has been verified \nSet your new password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="update">Update</string>
+    <string name="logo_new_password">logo_new_password</string>
+    <string name="password_updated_success_message">Your password has been Updated!</string>
+    <string name="password_updated">password updated</string>
+    <string name="login_btn_updated">LOGIN</string>
+    <string name="logo_updated">logo_updated</string>
+
+
+    <string name="clear_canvas">Clear Canvas</string>
+    <string name="clear_canvas_message">Do you really want to clear the canvas?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="failed_to_save_drawing">Failed to save drawing</string>
+    <string name="drawing_saved">Drawing saved</string>
+    <string name="imageitem">imageitem</string>
+    <string name="note_title">Note Title</string>
+    <string name="note_subtitle">Note subtitle</string>
+    <string name="type_note_here">Type note Here ....</string>
+    <string name="ratingstart">ratingStart</string>
+    <string name="feedbacklogo">feedbacklogo</string>
+    <string name="feedback_app">Feedback</string>
+    <string name="very_dissatisfied">Very Dissatisfied</string>
+    <string name="dissatisfied">Dissatisfied</string>
+    <string name="ok">OK</string>
+    <string name="satisfied">Satisfied</string>
+    <string name="very_satisfied">Very Satisfied</string>
+    <string name="enter_your_feedback">Enter your feedback ....</string>
+    <string name="send_feedback">Send Feedback</string>
+    <string name="user_feedback">User feedback valued! Share design\n feedback for better usability and \nappearance. Thank you for your support!</string>
+    <string name="upload_pdf">Upload PDF</string>
+    <string name="drag_and_drop_pdf_or">Drag and Drop PDF or</string>
+    <string name="select_file">Select File</string>
+    <string name="logo_icon">logo_icon</string>
+    <string name="note_bsk_title">Note BSK</string>
+    <string name="version_1_0_0">Version 1.0.0</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="about_us_description">Note BSK is a note-taking application that allows users to record and edit notes anytime, anywhere.</string>
+    <string name="or_contact_us">Or contact us by email</string>
+    <string name="contact_email">NOTE.BSK.ACC@GMAIL.COM</string>
+    <string name="facebook_icon">facebook_icon</string>
+    <string name="whatsapp_icon">whatsapp_icon</string>
+    <string name="instagram_icon">instagram_icon</string>
+    <string name="about_us_purpose">About Us Purpose</string>
+    <string name="settings">Settings</string>
+
+
+    <string name="reminder_send_email">Please make sure to send the email so that we can receive your feedback.</string>
+    <string name="email_to">NOTE.BSK.ACC@GMAIL.COM</string>
+    <string name="email_subject">Feedback from user</string>
+    <string name="email_client_not_installed">There is no email client installed.</string>
+    <string name="send_feedback_1">Send feedback...</string>
+
+
+    <string name="font_style">Font Style</string>
+    <string name="other_title">Other</string>
+    <string name="unknown">Unknown</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="open_image">OPEN IMAGE</string>
+    <string name="editdocimages">Editdocimages</string>
+    <string name="caption">Manage your documents quickly, easily, and efficiently!</string>
+    <string name="nav_logo_img">nav_logo_img</string>
+    <string name="note_bsk_nav">NOTE BSK</string>
+    <string name="nav_note_bsk_acc_gmail_com">NOTE.BSK.ACC@GMAIL.COM</string>
+    <string name="miscellaneous">Miscellaneous</string>
+    <string name="pick_color">Pick Color</string>
+    <string name="delete_note">Delete Note</string>
+    <string name="are_you_sure_you_want_to_delete_this_note">Are you sure you want to delete this Note?</string>
+
+
+    <string name="globalPdf">Global PDF</string>
+    <string name="localPdf">Local PDF</string>
+    <string name="nav_global_pdf">Global PDF</string>
+    <string name="nav_local_pdf">Local PDF</string>
+    <string name="pdf_name">Name</string>
+    <string name="pdf_image">pdf_image</string>
+    <string name="select_your_pdf">Select Your PDF</string>
+    <string name="from_your_local_storage">From Your Local Storage</string>
+    <string name="global_pdf">Global PDF</string>
+    <string name="search_pdf">Search PDF</string>
+    <string name="pdf_view_description">PDF View</string>
+    <string name="text_select_your_pdf">Select Your PDF</string>
+    <string name="write_the_pdf_name_you_want_upload">Write the pdf name you want upload</string>
+    <string name="txt_file_name">File Name</string>
+
+    <string name="hambuger_menu">hambuger_menu</string>
+    <string name="toggle_edit_mode">toggle_edit_mode</string>
+    <string name="thumbnailimageview">thumbnailImageView</string>
+    <string name="item1">item1</string>
+    <string name="item2">item2</string>
+    <string name="item3">item3</string>
+    <string name="uploadBy">By :</string>
+    <string name="uploading_pdf_local">Uploading pdf...</string>
+    <string name="select_your_pdf_global">Select Your PDF</string>
+    <string name="description_global_pdf">Write the pdf name you want upload</string>
+    <string name="file_name_global">File Name</string>
+    <string name="search_pdf_search">Search PDF...</string>
+    <string name="search_pdf_search_pdf">Search PDF...</string>
+
+    <!--font setting-->
+    <string name="font_settings">Font Settings</string>
+    <string name="font_size">Font Size</string>
+    <string name="personal_pdf_library">Personal PDF Library</string>
+    <string name="shared_pdf_library">Shared PDF Library</string>
+    <string-array name="font_size_entries">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+
+    <string-array name="font_size_values">
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+    </string-array>
+
+    <string-array name="font_style_entries">
+        <item>Normal</item>
+        <item>Bold</item>
+        <item>Italic</item>
+    </string-array>
+    <string-array name="font_style_values">
+        <item>normal</item>
+        <item>bold</item>
+        <item>italic</item>
+    </string-array>
+
+
+    <!-- 排序方式资源数组 -->
+    <string-array name="sort_by_entries">
+        <item>Created Time</item>
+        <item>Modified Time</item>
+        <item>Title</item>
+    </string-array>
+    <string-array name="sort_by_values">
+        <item>created_time</item>
+        <item>modified_time</item>
+        <item>title</item>
+    </string-array>
+
+
+</resources>

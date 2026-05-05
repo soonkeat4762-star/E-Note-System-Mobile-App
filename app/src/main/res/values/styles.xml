@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="preferenceTheme">@style/PreferenceTheme</item>
+    </style>
+
+    <style name="CustomCCPTheme" parent="Theme.AppCompat.Light">
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+    <!--Menu Style -->
+<style name="navigationTheme" >
+   <!--Color of text and icon when SELECTED -->
+    <item name="android:textColorSecondary">#c0c0c0</item>
+    <!--Background color when SELECTED -->
+    <item name="android:background">@color/background_menu</item>
+</style>
+
+    <style name="PreferenceCategoryTitle" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- 设置 Preference 标题字体颜色 -->
+
+    <style name="PreferenceTheme">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:layout_marginTop">1dp</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="Preference.Switch" parent="Preference.SwitchPreferenceCompat">
+        <item name="android:switchTextAppearance">@style/Preference.SwitchTextAppearance</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+
+    <style name="Preference.SwitchTextAppearance">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+
+    <style name="PreferenceCategory" parent="PreferenceTheme">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginTop">16dp</item>
+    </style>
+
+    <style name="Preference" parent="PreferenceTheme">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">8dp</item>
+    </style>
+
+    <dimen name="pin_view_margin_start">70dp</dimen>
+    <dimen name="pin_view_margin_end">75dp</dimen>
+
+
+        <style name="CustomDatePickerTheme" parent="Theme.AppCompat.Light.Dialog">
+            <item name="colorControlNormal">@color/black</item>
+            <item name="colorControlActivated">@color/black</item>
+        </style>
+
+
+</resources>

@@ -1,0 +1,64 @@
+
+<androidx.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <androidx.preference.PreferenceCategory
+        android:title="General Settings"
+        style="@style/PreferenceCategory">
+
+        <androidx.preference.Preference
+            android:title="Push Notifications"
+            app:icon="@drawable/push_notification_ic"
+            style="@style/PreferenceCategory" />
+
+        <androidx.preference.SwitchPreferenceCompat
+            android:key="system_notification"
+            android:title=" System Notification"
+            android:summary="Choose whether or not to receive push notifications"
+            android:defaultValue="false"
+            style="@style/Preference.Switch"/>
+
+
+        <androidx.preference.Preference
+        android:title="Sun &amp; Moon Mode"
+        app:icon="@drawable/night_mode"
+        style="@style/PreferenceCategory" />
+
+
+        <androidx.preference.SwitchPreferenceCompat
+            android:key="night_mode"
+            android:title="Night Mode"
+            android:summary="Enable or disable the night mode"
+            app:defaultValue="false"
+            style="@style/Preference.Switch"/>
+
+
+        <androidx.preference.PreferenceCategory
+            android:title="Account Settings"
+            style="@style/PreferenceCategory">
+
+            <androidx.preference.Preference
+                android:title="Account"
+                app:icon="@drawable/account_ic"
+                style="@style/PreferenceCategory" />
+
+            <androidx.preference.Preference
+                android:key="change_password"
+                android:title="Change Password"
+                android:summary="Change your account password"
+                style="@style/Preference" />
+
+            <androidx.preference.Preference
+                android:key="logout"
+                android:title="Logout"
+                android:summary="Log out of your account"
+                style="@style/Preference" />
+
+        </androidx.preference.PreferenceCategory>
+
+    </androidx.preference.PreferenceCategory>
+
+</androidx.preference.PreferenceScreen>
+

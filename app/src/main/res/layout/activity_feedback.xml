@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/gradient3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Feedback">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/gradient3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo"
+                android:gravity="center_horizontal"
+                android:text="@string/feedback_app"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/bluedark"
+                android:textSize="45sp"
+                tools:ignore="TextContrastCheck" />
+
+        <ImageView
+            android:id="@+id/feedback_icon"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/feedbacklogo"
+            app:srcCompat="@drawable/feedback" />
+
+            <TextView
+                android:id="@+id/txt_indro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/muli_semibolditalic"
+                android:gravity="center_horizontal"
+                android:text="@string/user_feedback"
+                android:textColor="@color/gray"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:ignore="TextContrastCheck" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <RatingBar
+                android:id="@+id/rbStars"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#FB8C00"
+                android:numStars="5"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/ratingstart"
+                android:progressBackgroundTint="#fffeee"
+                android:progressTint="#FB8C00" />
+
+        </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvFeedback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/carterone_regular"
+                android:gravity="center_horizontal"
+                android:text="@string/very_dissatisfied"
+                android:textColor="@color/bluedark"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                tools:ignore="TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/et_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:textColor="@color/black"
+            android:fontFamily="@font/robotocondensed_regular"
+            android:layout_marginTop="20dp"
+            android:gravity="start|top"
+            android:textColorHint="#000000"
+            android:hint="@string/enter_your_feedback"
+            android:inputType="textMultiLine"
+            android:lines="4"
+            android:padding="5dp"
+            android:autofillHints=""
+            tools:ignore="VisualLintTextFieldSize" />
+
+            <Button
+                android:id="@+id/btnSend"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="50dp"
+                android:onClick="sendEmail"
+                android:background="@drawable/btn_login_register_screen"
+                android:text="@string/send_feedback"
+                android:textColor="@color/white"
+                tools:ignore="VisualLintButtonSize,TextSizeCheck" />
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

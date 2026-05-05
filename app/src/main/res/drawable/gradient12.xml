@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!-- Defines a gradient for the shape -->
+    <gradient
+        android:type="linear"
+        android:angle="0"
+        android:startColor="#e6e9f0"
+        android:endColor="#eef1f5">
+
+    </gradient>
+
+
+</shape>

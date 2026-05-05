@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Defines a custom style named "Circular" -->
+    <style name="Circular">
+
+        <!-- Sets the corner size of the ShapeAppearance
+         to 50%, resulting in a circular shape -->
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <!-- Defines a custom style named "RoundedSquare" -->
+    <style name="RoundedSquare">
+
+        <!-- Sets the corner size of the ShapeAppearance
+        to 35%, resulting in a rounded square shape -->
+        <item name="cornerSize">35%</item>
+
+    </style>
+
+</resources>

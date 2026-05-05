@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#00897B</color>
+    <color name="colorPrimaryDark">#151515</color>
+    <color name="colorAccent">#FA1F1F</color>
+
+
+    <!--Custom Colors-->
+    <color name="blue">#ace0f9</color>
+    <color name="end">#fff1eb</color>
+    <color name="skyblue">#03A9F4</color>
+    <color name="blueshallow">#D1E5F4</color>
+    <color name="bluedark">#643AE7</color>
+    <color name="startblue">#09c6ef</color>
+    <color name="endblue">#0bcce6</color>
+    <color name="blueprimary">#643AE7</color>
+    <color name="gray">#6a6a6a</color>
+    <color name="lightWhite">#FAFAFA</color>
+    <color name="darker_gray">#757575</color>
+    <color name="orange">#FFA500</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="gold">#FFD700</color>
+    <color name="yellowshallow">#F0E68C</color>
+    <color name="lightblue">#00CED1</color>
+    <color name="tomato">#FF6347</color>
+    <color name="darkblue">#4B0082</color>
+    <color name="purple_300">#FF00FF</color>
+    <color name="lavendar">#8692f7</color>
+
+
+    <!--Custom Colors-->
+    <color name="custom_color_primary">#643AE7</color>
+    <color name="custom_color_secondary">#FF8F00</color>
+    <color name="custom_color_secondary_light">#FFD299</color>
+    <color name="custom_color_background">#FFFFFF</color>
+    <color name="custom_color_text_primary">#060906</color>
+    <color name="custom_color_text_secondary">#464747</color>
+
+    <!-- colors for button style -->
+
+    <color name="gradient_start_color">#4c84ff</color>
+    <color name="gradient_end_color">#18a3fe</color>
+    <color name="start_color">#48c6ef</color>
+    <color name="end_color">#6f86d6</color>
+
+    <!-- colors for tab and screen text -->
+
+    <color name="tab_indicator_gray">#c0c0c0</color>
+    <color name="intro_title_color">#000000</color>
+    <color name="intro_description_color">#656565</color>
+
+    <!-- colors for navigation drawer -->
+    <color name="text_menu">#c0c0c0</color>
+    <color name="background_menu">#6f86d6</color>
+
+
+    <!-- colors for seekbar progress -->
+    <color name="seekbar_progress_start_color">#007aff</color>
+    <color name="seekbar_progress_center_color">#00b0ff</color>
+    <color name="seekbar_progress_end_color">#00e5ff</color>
+    <color name="seekbar_thumb_color">#303F9F</color>
+
+
+    <!-- 其他颜色定义 -->
+    <color name="button_pressed_background">#4169E1</color>
+    <color name="button_focused_background">#87CEFA</color>
+    <color name="button_normal_background">#accbee</color>
+
+
+</resources>

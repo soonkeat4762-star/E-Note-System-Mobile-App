@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient3"
+    tools:context=".UploadGlobalPdf"
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E5F5FE">
+
+        <ImageView
+            android:id="@+id/upload_icon"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="48dp"
+            android:contentDescription="@string/images_pdfupload"
+            android:src="@drawable/upload_pdf"
+            tools:ignore="ImageContrastCheck" />
+
+        <TextView
+            android:id="@+id/upload_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_your_pdf"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#0D47A1"
+            android:layout_below="@id/upload_icon"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp" />
+
+        <TextView
+            android:id="@+id/upload_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/from_your_local_storage"
+            android:textSize="18sp"
+            android:textColor="#003399"
+            android:textStyle="bold"
+            android:layout_below="@id/upload_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp" />
+
+        <Button
+            android:id="@+id/upload_pdf"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_below="@id/upload_hint"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/btn_shape"
+            android:elevation="0dp"
+            android:stateListAnimator="@null"
+            android:text="@string/select_file"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            tools:ignore="TextContrastCheck" />
+
+        <RelativeLayout
+            android:id="@+id/upload_local_progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/upload_pdf"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/loading"
+            android:elevation="8dp"
+            android:indeterminate="true"
+            android:visibility="gone"
+            android:padding="20dp">
+
+            <ProgressBar
+                android:id="@+id/progress_bar"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentTop="true" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/progress_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/upload_local_progress_bar"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:fontFamily="@font/autourone_regular"
+            android:layout_marginTop="22dp"
+            android:visibility="gone"
+            android:text="@string/uploading_pdf_local"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
